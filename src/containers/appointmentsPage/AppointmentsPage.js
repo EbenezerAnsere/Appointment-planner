@@ -37,9 +37,9 @@ export const AppointmentsPage = () => {
     }
   };
 
-  // const handleChange = (name) => (e) => {
-  //   setAppointment({ ...appointment, [name]: e.target.value });
-  // };
+  const handleChange = (name) => (e) => {
+    setAppointment({ ...appointment, [name]: e.target.value });
+  };
 
   const nameExist = () => {
     const result = appointmentArray.filter(
